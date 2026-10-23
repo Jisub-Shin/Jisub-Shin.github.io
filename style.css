@@ -168,8 +168,24 @@ section {
   font-size: 1.04rem;
 }
 
-.quick-links {
+.document-links {
   margin-top: 1.45rem;
+}
+
+.documents-label {
+  margin: 0 0 0.55rem;
+  color: var(--label);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.documents-label span {
+  padding: 0 0.2em;
+}
+
+.quick-links {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -196,16 +212,6 @@ section {
   stroke-width: 1.6;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.file-type {
-  padding: 2px 4px;
-  border: 1px solid currentColor;
-  border-radius: 2px;
-  font-size: 0.59rem;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0.03em;
 }
 
 .quick-links .primary-link {
