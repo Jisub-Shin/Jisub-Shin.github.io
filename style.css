@@ -176,13 +176,36 @@ section {
 }
 
 .quick-links a {
-  min-height: 36px;
-  padding: 7px 12px;
+  min-height: 40px;
+  padding: 8px 10px;
   border: 1px solid var(--line);
   display: inline-flex;
   align-items: center;
+  gap: 7px;
   font-size: 0.86rem;
   font-weight: 600;
+  white-space: nowrap;
+}
+
+.file-icon {
+  width: 16px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.file-type {
+  padding: 2px 4px;
+  border: 1px solid currentColor;
+  border-radius: 2px;
+  font-size: 0.59rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.03em;
 }
 
 .quick-links .primary-link {
